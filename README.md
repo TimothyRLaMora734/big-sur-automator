@@ -29,3 +29,15 @@ If some features are disabled like WiFi (most common), this extra guide will pro
 
 # Final Note
 This is still in test.
+
+# Release v0.1.7alpha-r2 changelog
+Fixes lot's of command bugs.
+Updated stuff (compared to 0.1.7alpha-r1-nfp)
+- Fixes command typos
+- Cuts the whole process of installing homebrew and WGET by replacing WGET with CURL
+- Updates the link to download beta 2, the link may go down sometimes but much stable on unsupported Macs compared to beta 3.
+- Fixes the issue where the PKG file downloaded won't install. It fixes the "File wasn't found" error, but requires the USB named "volume" to be plugged the entire process. Working on a alternative fix soon but this is the replacement for now.
+- Now for downloading the patcher, it uses "git", not wget. This helps to cut the entire homebrew process but git command requires for Xcode command line utility to be installed, which may take some time. Working on a fix for this, but git is a alternative replacement for now.
+- Jumped the release tag to release 1 (r1) to release 2 (r2), adding an extra "-alpha" to the version.
+- Added the "rm" command to delete InstallAssistant.pkg and big-sur-micropatcher files to reduce space waste. Significantly reduces the downloaded size by 10 ~ 13 GBs. May have some leftovers, working on a fix for that.
+- Updated README.md file over 10 times in less than an hour, changes made are too long to list.

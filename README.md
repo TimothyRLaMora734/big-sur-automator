@@ -3,6 +3,9 @@ current version: 0.1.7alpha-r2
 NOTE: I OWN NONE OF THE TOOLS AND STUFF THAT THIS AUTOMATOR USES. I DIDN'T MAKE THIS FOR PERSONAL GAINS. INFACT I MADE THIS FOR MAKE PATCHING MUCH EASIER FOR USERS. I'LL TAKE THIS REPOSITORY DOWN IF THE TOOL OWNER REQUESTS.
 CREDITS: barrykn for the micropatcher used. https://www.github.com/barrykn/micropatcher
 
+# Before you start
+This patch automator is still in test and it might have sme issues in the command. So, please, PLEASE report issues in the issues tab. Keep in mind we don't provide support for broken macs using this script. 
+
 # How it works
 BSR changes the whole step to make a patched Big Sur USB into simple lines of script texts. So rather than making a USB and fail, get help from the community over and over until you success, all you have to do is paste some lines of code made by an experienced guy into an app and let it happen automatically!
 

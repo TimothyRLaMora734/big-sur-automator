@@ -4,14 +4,14 @@ NOTE: I OWN NONE OF THE TOOLS AND STUFF THAT THIS AUTOMATOR USES. I DIDN'T MAKE 
 CREDITS: barrykn for the micropatcher used. https://www.github.com/barrykn/micropatcher
 
 # Before you start
-This patch automator is still in test and it might have sme issues in the command. So, please, PLEASE report issues in the issues tab. Keep in mind we don't provide support for broken macs using this script. 
+This patch automator is still in test and it might have some issues in the command. So, please, PLEASE report issues in the issues tab. Keep in mind we don't provide support for broken macs using this script. 
 
 # How it works
 BSR changes the whole step to make a patched Big Sur USB into simple lines of script texts. So rather than making a USB and fail, get help from the community over and over until you success, all you have to do is paste some lines of code made by an experienced guy into an app and let it happen automatically!
 
 # Simple Guide 
-1. Format your USB as the following: Map: GUID Partition Map | Format: HFS+ (macOS Extended Journal) | Name: volume | No caps in name.
-2. open the text file in the repository, copy the texts in there, paste it into terminal, run it and let it happen. 
+1. Format your USB as the following: Map: GUID Partition Map | Format: HFS+ (macOS Extended Journal) | Name: volume | No capitals in name.
+2. open the provided text file in the repository, copy the texts in there, paste it into terminal, run it and let the script do all the magic. 
 3. Reboot. If it doesn't boot into the USB, just option boot into the USB.
 [this is where it gets risky. well not much... just a bit]
 4. Open Disk Utility, select the entire internal disk and erase it as following: Format: APFS | Name: Big Sur | Alternative name: BS | Map: GUID Partition Map
@@ -24,7 +24,7 @@ If some features are disabled like WiFi (most common), this extra guide will pro
 1. Boot into the patched recovery USB
 2. Open up terminal (Menu bar > Utilities > Terminal)
 3. Enter following: /Volumes/Image\ Volume/patch-kexts.sh /Volumes/
-4. Don't run it just yes, now, remember when I told you to format the internal drive? If you selected the first name (Big Sur), type "Big\ Sur" (no quotes) and run it. If you chose the alternative name, type "BS" (no quotes) and run it.
+4. Don't run it just yet, now, remember when I told you to format the internal drive? If you selected the first name (Big Sur), type "Big\ Sur" (no quotes) and run it. If you chose the alternative name, type "BS" (no quotes) and run it.
 5. reboot to the internal drive and everything "should" be fixed.
 
 # Final Note
